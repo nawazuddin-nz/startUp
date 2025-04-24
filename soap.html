@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSoap - Sustainable, Handmade Soaps</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #1e1e1e;
+            --text-color: #e0e0e0;
+            --accent-color: #9fdfc1;
+            --card-bg: #2a2a2a;
+            --highlight: #4ade80;
+            --heading-font: 'Montserrat', sans-serif;
+            --body-font: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--body-font);
+            margin: 0;
+            padding: 0;
+        }
+
+        .startup-page {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        a.back-link {
+            color: var(--accent-color);
+            text-decoration: none;
+            margin-bottom: 2rem;
+            display: inline-block;
+            font-weight: 500;
+        }
+
+        .startup-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .startup-header h1 {
+            font-family: var(--heading-font);
+            font-size: 3rem;
+            color: var(--highlight);
+        }
+
+        .startup-header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: var(--text-color);
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-family: var(--heading-font);
+            color: var(--accent-color);
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .video iframe {
+            border: 4px solid var(--card-bg);
+            border-radius: 8px;
+        }
+
+        .contact-info {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 3rem;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-item h3 {
+            margin: 0;
+            font-size: 2rem;
+            color: var(--highlight);
+        }
+
+        .stat-item p {
+            margin: 0;
+            font-size: 1rem;
+            color: var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="startup-page">
+        <a href="index.html" class="back-link">&larr; Back to Showcase</a>
+
+        <header class="startup-header">
+            <h1>EcoSoap</h1>
+            <p>Sustainable, handmade soaps</p>
+        </header>
+
+        <section class="stats">
+            <div class="stat-item">
+                <h3>4.9</h3>
+                <p>Avg. Rating</p>
+            </div>
+            <div class="stat-item">
+                <h3>20K+</h3>
+                <p>Downloads</p>
+            </div>
+            <div class="stat-item">
+                <h3>500+</h3>
+                <p>Positive Reviews</p>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2>About Us</h2>
+            <p>EcoSoap is a student-led initiative dedicated to creating sustainable, handmade soaps using only natural ingredients. Our mission is to reduce plastic waste in personal care products while educating consumers about environmental consciousness.</p>
+            <p>Each soap is carefully crafted using traditional methods, incorporating locally sourced ingredients and essential oils. We believe in transparency and sustainability at every step of our production process.</p>
+        </section>
+
+        <section class="gallery">
+            <img src="https://images.unsplash.com/photo-1612817288484-6f916006741a?w=400" alt="EcoSoap Product">
+            <img src="https://images.unsplash.com/photo-1600857062241-98e5dba7f214?w=400" alt="Soap Making Process">
+            <img src="https://images.unsplash.com/photo-1607006344380-b6775a0824a7?w=400" alt="Ingredients"> <img src="https://images.unsplash.com/photo-1600857062241-98e5dba7f214?w=400" alt="Soap Making Process">
+            <img src="https://images.unsplash.com/photo-1607006344380-b6775a0824a7?w=400" alt="Ingredients">
+        </section>
+
+        <section class="video">
+            <h2>See How We Make Our Soaps</h2>
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+              <iframe 
+                src="https://www.youtube-nocookie.com/embed/csAXruiBLTs?si=amAnAAQxoveCIaJR&controls=0&start=25&autoplay=1&rel=0"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                title="YouTube video player"
+                referrerpolicy="strict-origin-when-cross-origin"
+              ></iframe>
+            </div>
+            
+        </section>
+
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Email: contact@ecosoap.com</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Instagram: @ecosoap_official</p>
+        </section>
+    </div>
+</body>
+</html>

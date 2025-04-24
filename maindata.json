@@ -1,0 +1,86 @@
+{
+  "startups": [
+    {
+      "id": "startup-1",
+      "name": "E",
+      "description": "An AI-powered platform that teaches sustainability through interactive games.",
+      "tags": ["EdTech", "AI", "Sustainability"],
+      "image": "https://images.pexels.com/photos/7103/writing-notes-idea-conference.jpg?auto=compress&cs=tinysrgb&w=800",
+      "links": {
+        "whatsapp": "https://wa.me/1234567890",
+        "instagram": "https://instagram.com/ecolearn",
+        "amazon": "",
+        "youtube": "https://youtube.com/ecolearn"
+      },
+      "page": "soap.html"
+    },
+    {
+      "id": "startup-2",
+      "name": "QuickHealth",
+      "description": "On-demand telemedicine service connecting students with healthcare professionals.",
+      "tags": ["HealthTech", "Service", "Mobile"],
+      "image": "https://images.pexels.com/photos/3825586/pexels-photo-3825586.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "links": {
+        "whatsapp": "https://wa.me/1234567890",
+        "instagram": "https://instagram.com/quickhealth",
+        "amazon": "",
+        "youtube": ""
+      }
+    },
+    {
+      "id": "startup-3",
+      "name": "StudyBuddy",
+      "description": "Peer-to-peer platform that matches students for collaborative study sessions.",
+      "tags": ["EdTech", "Social", "Productivity"],
+      "image": "https://images.pexels.com/photos/8199562/pexels-photo-8199562.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "links": {
+        "whatsapp": "",
+        "instagram": "https://instagram.com/studybuddy",
+        "amazon": "",
+        "youtube": "https://youtube.com/studybuddy"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-1",
+      "name": "Full-Stack Development",
+      "description": "Building web applications from frontend to backend with React, Node.js, and MongoDB.",
+      "tags": ["Web", "JavaScript", "React", "Node.js"],
+      "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "links": {
+        "whatsapp": "https://wa.me/1234567890",
+        "instagram": "",
+        "amazon": "",
+        "youtube": "https://youtube.com/codingchannel"
+      }
+    },
+    {
+      "id": "skill-2",
+      "name": "UI/UX Design",
+      "description": "Creating beautiful, intuitive user interfaces with Figma and Adobe XD.",
+      "tags": ["Design", "Figma", "UX", "Creative"],
+      "image": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "links": {
+        "whatsapp": "",
+        "instagram": "https://instagram.com/uxdesigner",
+        "amazon": "",
+        "youtube": ""
+      },
+       "page": "soap.html"
+    },
+    {
+      "id": "skill-3",
+      "name": "Data Science",
+      "description": "Analyzing data and building predictive models using Python, Pandas, and TensorFlow.",
+      "tags": ["Python", "Data", "AI", "Analytics"],
+      "image": "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "links": {
+        "whatsapp": "https://wa.me/1234567890",
+        "instagram": "https://instagram.com/datascientist",
+        "amazon": "",
+        "youtube": "https://youtube.com/datasciencechannel"
+      }
+    }
+  ]
+}

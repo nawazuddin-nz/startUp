@@ -1,0 +1,58 @@
+{
+  "startups": [
+    {
+      "id": "startup-1",
+      "name": "EcoLearn",
+      "description": "An AI-powered platform that teaches sustainability through interactive games.",
+      "tags": ["EdTech", "AI", "Sustainability"],
+      "image": "https://images.pexels.com/photos/7103/writing-notes-idea-conference.jpg?auto=compress&cs=tinysrgb&w=800",
+      "links": {
+        "whatsapp": "https://wa.me/1234567890",
+        "instagram": "https://instagram.com/ecolearn",
+        "amazon": "",
+        "youtube": "https://youtube.com/ecolearn"
+      },
+      "page": "soap.html"
+    },
+    {
+      "id": "startup-2",
+      "name": "QuickHealth",
+      "description": "On-demand telemedicine service connecting students with healthcare professionals.",
+      "tags": ["HealthTech", "Service", "Mobile"],
+      "image": "https://images.pexels.com/photos/3825586/pexels-photo-3825586.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "links": {
+        "whatsapp": "https://wa.me/1234567890",
+        "instagram": "https://instagram.com/quickhealth",
+        "amazon": "",
+        "youtube": ""
+      }
+    },
+    {
+      "id": "startup-3",
+      "name": "StudyBuddy",
+      "description": "Peer-to-peer platform that matches students for collaborative study sessions.",
+      "tags": ["EdTech", "Social", "Productivity"],
+      "image": "https://images.pexels.com/photos/8199562/pexels-photo-8199562.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "links": {
+        "whatsapp": "",
+        "instagram": "https://instagram.com/studybuddy",
+        "amazon": "",
+        "youtube": "https://youtube.com/studybuddy"
+      }
+    },
+  
+    {
+      "id": "startup-6",
+      "name": "NoteTaker",
+      "description": "AI-powered note-taking app that summarizes lectures and generates study materials.",
+      "tags": ["AI", "EdTech", "Productivity"],
+      "image": "https://images.pexels.com/photos/3850213/pexels-photo-3850213.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "links": {
+        "whatsapp": "https://wa.me/1234567890",
+        "instagram": "https://instagram.com/notetaker",
+        "amazon": "",
+        "youtube": "https://youtube.com/notetaker"
+      }
+    }
+  ]
+}

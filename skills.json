@@ -1,0 +1,85 @@
+{
+  "skills": [
+    {
+      "id": "skill-1",
+      "name": "Full-Stack Develop",
+      "description": "Building web applications from frontend to backend with React, Node.js, and MongoDB.",
+      "tags": ["Web", "JavaScript", "React", "Node.js"],
+      "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "links": {
+        "whatsapp": "https://wa.me/1234567890",
+        "instagram": "",
+        "amazon": "",
+        "youtube": "https://youtube.com/codingchannel"
+      },
+      "page": "soap.html"
+    }
+,    
+    {
+      "id": "skill-2",
+      "name": "UI/UX Design",
+      "description": "Creating beautiful, intuitive user interfaces with Figma and Adobe XD.",
+      "tags": ["Design", "Figma", "UX", "Creative"],
+      "image": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "links": {
+        "whatsapp": "",
+        "instagram": "https://instagram.com/uxdesigner",
+        "amazon": "",
+        "youtube": ""
+      }
+    },
+    {
+      "id": "skill-3",
+      "name": "Data Science",
+      "description": "Analyzing data and building predictive models using Python, Pandas, and TensorFlow.",
+      "tags": ["Python", "Data", "AI", "Analytics"],
+      "image": "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "links": {
+        "whatsapp": "https://wa.me/1234567890",
+        "instagram": "https://instagram.com/datascientist",
+        "amazon": "",
+        "youtube": "https://youtube.com/datasciencechannel"
+      },
+         "page": "soap.html"
+    },
+    {
+      "id": "skill-4",
+      "name": "Digital Marketing",
+      "description": "Creating and executing marketing campaigns across digital channels.",
+      "tags": ["Marketing", "Social Media", "SEO", "Analytics"],
+      "image": "https://images.pexels.com/photos/905163/pexels-photo-905163.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "links": {
+        "whatsapp": "https://wa.me/1234567890",
+        "instagram": "https://instagram.com/digitalmarketer",
+        "amazon": "",
+        "youtube": ""
+      }
+    },
+    {
+      "id": "skill-5",
+      "name": "Video Production",
+      "description": "Creating high-quality video content for social media and marketing.",
+      "tags": ["Creative", "Video", "Editing", "Social Media"],
+      "image": "https://images.pexels.com/photos/2608519/pexels-photo-2608519.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "links": {
+        "whatsapp": "",
+        "instagram": "https://instagram.com/videoproducer",
+        "amazon": "",
+        "youtube": "https://youtube.com/videochannel"
+      }
+    },
+    {
+      "id": "skill-6",
+      "name": "Content Writing",
+      "description": "Crafting engaging blog posts, articles, and social media content.",
+      "tags": ["Writing", "Content", "Creative", "Marketing"],
+      "image": "https://images.pexels.com/photos/6334748/pexels-photo-6334748.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "links": {
+        "whatsapp": "https://wa.me/1234567890",
+        "instagram": "https://instagram.com/contentwriter",
+        "amazon": "",
+        "youtube": ""
+      }
+    }
+  ]
+}
